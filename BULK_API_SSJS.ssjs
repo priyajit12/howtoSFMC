@@ -227,7 +227,6 @@
      * @param {String} token - token retrieved from Sales cloud via the retrieveToken() function
      * @param {String} jobid - jobid of the bulk job
      * @param {Array} csvData - Array of the CSV data
-
      */
 
     function updateBulkReq(host, token, jobid, csvData) {
