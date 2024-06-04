@@ -168,7 +168,7 @@
         var deCustKey = "XXXX-XXXX-XXXX-XXXX";
         //SFSubscribersDE Fields
         var cols = ["Columns of the DE"];
-        var moreData = true; //To validate if more data in Retrieve
+        var moreData = true; //To validate if more data in Retrieve because WS Proxy can only retrieve upto 2500 rows per iteration
         var reqID = null; //Used with Batch Retrieve to get more data
         var batchCount = 0;
         //String to store CSV Data to send to SF Bulk API
