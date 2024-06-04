@@ -135,7 +135,7 @@
     function createBulkRequest(host, token) {
         var url = host + "/services/data/v49.0/jobs/ingest/";
         var payload = {};
-        payload.object = "Subscriber__c";
+        payload.object = "Object to be updated";
         payload.contentType = "CSV";
         payload.operation = "insert";
         payload.lineEnding = "CRLF";
