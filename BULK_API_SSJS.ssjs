@@ -147,7 +147,7 @@
         req.contentType = "application/json";
         req.method = "POST";
         req.setHeader("Authorization", "Bearer " + token);
-        req.postData = Stringify(payload);
+        req.postData = JSON.Stringify(payload);
 
         var resp = req.send();
         var resultStr = String(resp.content);
@@ -269,7 +269,7 @@
         req.contentType = "application/json";
         req.method = "PATCH";
         req.setHeader("Authorization", "Bearer " + token);
-        req.postData = Stringify(payload);
+        req.postData = JSON.Stringify(payload);
 
         var resp = req.send();
         var resultStr = String(resp.content);
