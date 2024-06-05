@@ -194,10 +194,10 @@
                 }
                 csvData += recArray.join(",") + "\r\n";
             }
-            //Use batchCount if needed for debug log to identify number of batches called;
+           
         }
-        //Send update request to Bulk API job with final CSV Data
-        var updJobJSON = updateBulkReq(instanceURL, token, jobid, csvData);
+      
+        var updJobJSON = updateBulkReq(instanceURL, token, jobid, csvData);  /*Send update request to Bulk API job with final CSV Data*/
     }
 
     function getDERowsIntoArray(mid, deCustKey, cols, reqID) {
